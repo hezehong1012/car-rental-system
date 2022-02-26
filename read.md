@@ -1,4 +1,3 @@
-# car-rental-system
 1.Health check
 Request http://localhost:8080/health/alive
 Method  GET
