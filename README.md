@@ -1,4 +1,15 @@
 # car-rental-system
+简单汽车出租服务，初始化
+   initCarList = new LinkedList<Car>(){{
+            add(new Car((long)1, "Toyota Camry", "Toyota Camry_001"));
+            add(new Car((long)2, "Toyota Camry", "Toyota Camry_002"));
+            add(new Car((long)3, "BMW 650", "BMW 650_001"));
+            add(new Car((long)4, "BMW 650", "BMW 650_002"));
+        }};
+   包含查阅所有待出租信，已出租信息，出租汽车，归还汽车功能
+# HTTP STATUS 
+# 200 success | 500 failed
+
 1.Health check
 Request http://47.93.252.65:8080/car-manager/health/alive
 Method  GET
