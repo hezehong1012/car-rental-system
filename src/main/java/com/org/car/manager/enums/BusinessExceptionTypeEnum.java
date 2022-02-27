@@ -5,7 +5,7 @@ public enum BusinessExceptionTypeEnum {
 
     RENTED_CAR("RENTED_CAR", "当前租赁的汽车已出租"),
 
-    NOT_RENTED_CAR("NOT_RENTED_CAR", "当前租赁的汽车已尚未出租，无需规划"),
+    NOT_RENTED_CAR("NOT_RENTED_CAR", "当前租赁的汽车已尚未出租，无需归还"),
     ;
 
     private String type;
