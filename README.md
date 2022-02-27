@@ -1,6 +1,6 @@
 # car-rental-system
 1.Health check
-Request http://localhost:8080/health/alive
+Request http://47.93.252.65:8080/car-manager/health/alive
 Method  GET
 Response
        {
@@ -12,7 +12,7 @@ Response
        }
 
 2.GET ALL RESIDUE STOCK CAR
-Request http://localhost:8080/rental/allResidueStockCar
+Request http://47.93.252.65:8080/car-manager/rental/allResidueStockCar
 Method  GET
 Response
     {
@@ -40,7 +40,7 @@ Response
     }
               
 3.REND CAR
-Request http://localhost:8080/rental/rend
+Request http://47.93.252.65:8080/car-manager/rental/rend
 Method  post
 Request 
    {
@@ -57,7 +57,7 @@ Response
     }
 
 3.GET ALL REND CAR LIST 
-Request http://localhost:8080/rental/allUserRentalCar
+Request http://47.93.252.65:8080/car-manager/rental/allUserRentalCar
 Method  get
 Request 
 Response
@@ -76,7 +76,7 @@ Response
     }
 
 4.RETURN CAR 
-Request http://localhost:8080/rental/return
+Request http://47.93.252.65:8080/car-manager/rental/return
 Method  get
 Request 
 Response

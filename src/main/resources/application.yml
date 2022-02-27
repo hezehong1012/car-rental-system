@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /car-manager
+
+spring:
+  profiles:
+    active: dev
